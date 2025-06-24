@@ -25,31 +25,31 @@ export const AddServiceDropdown: React.FC<AddServiceDropdownProps> = ({
     { 
       id: 'ppi-wallet-gold', 
       title: 'PPI Wallet Gold', 
-      icon: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CjxyZWN0IHg9IjIiIHk9IjciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMCIgcng9IjIiIGZpbGw9IiNENEFGMzciLz4KPHJlY3QgeD0iNCIgeT0iOSIgd2lkdGg9IjE2IiBoZWlnaHQ9IjYiIHJ4PSIxIiBmaWxsPSIjRkZGIi8+CjxyZWN0IHg9IjciIHk9IjEyIiB3aWR0aD0iMiIgaGVpZ2h0PSIyIiByeD0iMSIgZmlsbD0iIzM4OEUzQyIvPgo8L3N2Zz4=', 
+      icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/d9d164360b1fbc4d980f7c15fcadd75539949710?placeholderIfAbsent=true', 
       category: 'Payments' 
     },
     { 
       id: 'dmt', 
       title: 'DMT', 
-      icon: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiA4Yy0zLjMzMyAwLTUgMS4zMzMtNSA0czEuNjY3IDQgNSA0TTEyIDhoLjAxIi8+CjxwYXRoIGQ9Ik0xMiAxNmguMDEiLz4KPHBhdGggZD0iTTE1IDEyaC0zIi8+CjxwYXRoIGQ9Ik0xMiAxMlY4TTEyIDEydjQiLz4KPHBhdGggZD0iTTggMTJoMW01IDBoMW0tNi0zaC4wMU0xNCA5aC4wMU0xMCAxNWguMDFNMTQgMTVoLjAxIiBzdHJva2U9IiMxOTc2RDIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPg==', 
+      icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/38c4e30b0af84f9cbe6bf2a7f8b80b54c6e7b123?placeholderIfAbsent=true', 
       category: 'Payments' 
     },
     { 
       id: 'aeps', 
       title: 'AEPS', 
-      icon: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CjxwYXRoIGQ9Ik0xMiAzYTkgOSAwIDAwLTkgOSA5IDkgMCAwMDkgOSA4IDggMCAwMDgtOCA5IDkgMCAwMC05LTl6IiBzdHJva2U9IiNGRjU3MjIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0yMiAxMmgtNCIgc3Ryb2tlPSIjRkY1NzIyIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMiAxMmg0IiBzdHJva2U9IiNGRjU3MjIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xMiAydjQiIHN0cm9rZT0iI0ZGNTcyMiIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTEyIDIydi00IiBzdHJva2U9IiNGRjU3MjIiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPg==', 
+      icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/2bf3c7a8d1e04f5f8e9b3c4a6f5e8d7c9b2a1e3f?placeholderIfAbsent=true', 
       category: 'Payments' 
     },
     { 
       id: 'upi-pay', 
       title: 'UPI Pay', 
-      icon: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0iIzM5YzNlOCI+CjxwYXRoIGQ9Ik00IDRoNnY2SDR6TTQgMTRoNnY2SDR6TTE0IDRoNnY2aC02ek0xNCAxNGg2djZoLTZ6Ii8+Cjwvc3ZnPg==', 
+      icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/4a8f2b6e3c9d1f7a5e8b2c4f6d9a3b7e1c5f8a2d?placeholderIfAbsent=true', 
       category: 'Payments' 
     },
     { 
       id: 'ppi-wallet', 
       title: 'PPI Wallet', 
-      icon: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CjxyZWN0IHg9IjIiIHk9IjciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMCIgcng9IjIiIGZpbGw9IiM2Yzc1N2QiLz4KPHJlY3QgeD0iNCIgeT0iOSIgd2lkdGg9IjE2IiBoZWlnaHQ9IjYiIHJ4PSIxIiBmaWxsPSIjRkZGIi8+CjxyZWN0IHg9IjciIHk9IjEyIiB3aWR0aD0iMiIgaGVpZ2h0PSIyIiByeD0iMSIgZmlsbD0iIzZjNzU3ZCIvPgo8L3N2Zz4=', 
+      icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/6d3a8f1b9c4e7f2a5b8d1e6f3c9a2b7e4f1a8d5c?placeholderIfAbsent=true', 
       category: 'Payments' 
     },
     
@@ -57,7 +57,7 @@ export const AddServiceDropdown: React.FC<AddServiceDropdownProps> = ({
     { 
       id: 'recharge', 
       title: 'Recharge', 
-      icon: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CjxyZWN0IHg9IjIiIHk9IjciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMCIgcng9IjIiIGZpbGw9IiMyOUI2RjYiLz4KPHJlY3QgeD0iNCIgeT0iOSIgd2lkdGg9IjE2IiBoZWlnaHQ9IjYiIHJ4PSIxIiBmaWxsPSIjQTVENkE3Ii8+CjxyZWN0IHg9IjciIHk9IjEyIiB3aWR0aD0iMiIgaGVpZ2h0PSIyIiByeD0iMSIgZmlsbD0iIzgxRDRGQSIvPgo8Y2lyY2xlIGN4PSIxMiIgY3k9IjE3IiByPSIxIiBmaWxsPSIjMDI4OEQxIi8+Cjwvc3ZnPg==', 
+      icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/8b5e2f9c1a7d4b6f3e8a9c2f5d1b4e7a6c3f9b2e?placeholderIfAbsent=true', 
       category: 'Recharge' 
     },
     
@@ -65,7 +65,7 @@ export const AddServiceDropdown: React.FC<AddServiceDropdownProps> = ({
     { 
       id: 'fintech-wallet-transfer', 
       title: 'Fintech Wallet to Bank Transfer', 
-      icon: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CjxyZWN0IHg9IjMiIHk9IjciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxMCIgcng9IjMiIGZpbGw9IiNGRkIzMDAiLz4KPHJlY3QgeD0iNSIgeT0iOSIgd2lkdGg9IjE0IiBoZWlnaHQ9IjYiIHJ4PSIyIiBmaWxsPSIjRkZFMDgyIi8+CjxyZWN0IHg9IjgiIHk9IjEyIiB3aWR0aD0iMyIgaGVpZ2h0PSIyIiByeD0iMSIgZmlsbD0iI0Y1N0MwMCIvPgo8L3N2Zz4=', 
+      icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/1f7a3c9e5b8d2f6a4e9c3b7f1a5d8c2e6b4f9a3d?placeholderIfAbsent=true', 
       category: 'Wallet Transfer' 
     },
     
@@ -73,19 +73,19 @@ export const AddServiceDropdown: React.FC<AddServiceDropdownProps> = ({
     { 
       id: 'bill-payment-offline', 
       title: 'Bill Payment Offline', 
-      icon: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CjxyZWN0IHg9IjQiIHk9IjQiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgcng9IjIiIGZpbGw9IiM5MENBRjkiLz4KPHJlY3QgeD0iNiIgeT0iNyIgd2lkdGg9IjEyIiBoZWlnaHQ9IjIiIHJ4PSIxIiBmaWxsPSIjMTk3NkQyIi8+CjxyZWN0IHg9IjYiIHk9IjExIiB3aWR0aD0iMTIiIGhlaWdodD0iMiIgcng9IjEiIGZpbGw9IiMxOTc2RDIiLz4KPHJlY3QgeD0iNiIgeT0iMTUiIHdpZHRoPSI4IiBoZWlnaHQ9IjIiIHJ4PSIxIiBmaWxsPSIjMTk3NkQyIi8+Cjwvc3ZnPg==', 
+      icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/3c6f9b2e8a1d5f4b7e9c2a6f3d8b1e5c4f7a9b2d?placeholderIfAbsent=true', 
       category: 'Bill Payments' 
     },
     { 
       id: 'bill-payment-online', 
       title: 'Bill Payment Online', 
-      icon: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CjxyZWN0IHg9IjQiIHk9IjQiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgcng9IjIiIGZpbGw9IiM5MENBRjkiLz4KPHJlY3QgeD0iNiIgeT0iNyIgd2lkdGg9IjEyIiBoZWlnaHQ9IjIiIHJ4PSIxIiBmaWxsPSIjMTk3NkQyIi8+CjxyZWN0IHg9IjYiIHk9IjExIiB3aWR0aD0iMTIiIGhlaWdodD0iMiIgcng9IjEiIGZpbGw9IiMxOTc2RDIiLz4KPHJlY3QgeD0iNiIgeT0iMTUiIHdpZHRoPSI4IiBoZWlnaHQ9IjIiIHJ4PSIxIiBmaWxsPSIjMTk3NkQyIi8+CjxjaXJjbGUgY3g9IjE4IiBjeT0iMTgiIHI9IjMiIGZpbGw9IiMwMEJDRDQiLz4KPC9zdmc+', 
+      icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/5a9e3f1c7b4d8e2f6a9c1b5e8d3f7a2c4e6b9f1a?placeholderIfAbsent=true', 
       category: 'Bill Payments' 
     },
     { 
       id: 'igl-commercial-bill', 
       title: 'IGL Commercial Bill', 
-      icon: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CjxwYXRoIGQ9Ik0xMy40MyAzLjMyYTMuNSAzLjUgMCAwMC00Ljg2IDQuODZMMy4zMiAxMy40M2EzLjUgMy41IDAgMDA0Ljg2IDQuODZsNS4yNS01LjI1YTMuNSAzLjUgMCAwMDQuODYtNC44NmwtNS4yNS01LjI1eiIgc3Ryb2tlPSIjRkY1NzIyIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMjIgNnMtMiA2LTYgNiIgc3Ryb2tlPSIjRkY1NzIyIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4=', 
+      icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/7e2a6f4b9c1d5e8a3f7b2c6e9a4f1d5b8c3e7f2a?placeholderIfAbsent=true', 
       category: 'Bill Payments' 
     },
     
@@ -93,7 +93,7 @@ export const AddServiceDropdown: React.FC<AddServiceDropdownProps> = ({
     { 
       id: 'credit-card-bill', 
       title: 'Credit Card Bill', 
-      icon: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CjxyZWN0IHg9IjMiIHk9IjYiIHdpZHRoPSIxOCIgaGVpZ2h0PSIxMiIgcng9IjIiIGZpbGw9IiMxOTc2RDIiLz4KPHJlY3QgeD0iNSIgeT0iMTAiIHdpZHRoPSIxNCIgaGVpZ2h0PSIyIiByeD0iMSIgZmlsbD0iIzY0QjVGNiIvPgo8cmVjdCB4PSI3IiB5PSIxNCIgd2lkdGg9IjQiIGhlaWdodD0iMiIgcng9IjEiIGZpbGw9IiMxNTY1QzAiLz4KPC9zdmc+', 
+      icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/9d4b7f2e5c8a1f6b3e9a4c7f2d5b8e1c6f4a9b3e?placeholderIfAbsent=true', 
       category: 'Credit Card' 
     },
     
@@ -101,20 +101,20 @@ export const AddServiceDropdown: React.FC<AddServiceDropdownProps> = ({
     { 
       id: 'airline', 
       title: 'Airline', 
-      icon: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CjxyZWN0IHg9IjIiIHk9IjYiIHdpZHRoPSIyMCIgaGVpZ2h0PSIxMiIgcng9IjQiIGZpbGw9IiM4MUM3ODQiLz4KPGNpcmNsZSBjeD0iOCIgY3k9IjEyIiByPSIyIiBmaWxsPSIjRkZENjAwIi8+CjxjaXJjbGUgY3g9IjE2IiBjeT0iMTAiIHI9IjIiIGZpbGw9IiNFNTM5MzUiLz4KPHJlY3QgeD0iMTIiIHk9IjE0IiB3aWR0aD0iNCIgaGVpZ2h0PSIyIiByeD0iMSIgZmlsbD0iIzQzQTA0NyIvPgo8L3N2Zz4=', 
+      icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/2c7f4a9b6e1d8f3a5c9b2e7f4d1a6c8b3f5e9a2d?placeholderIfAbsent=true', 
       category: 'Travel' 
     },
     { 
       id: 'bus', 
       title: 'Bus', 
-      icon: 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSI+CjxyZWN0IHg9IjMiIHk9IjExIiB3aWR0aD0iMTgiIGhlaWdodD0iMTAiIHJ4PSIyIiByeT0iMiIgc3Ryb2tlPSIjNzk1NTQ4IiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8bGluZSB4MT0iNyIgeTE9IjExIiB4Mj0iNyIgeTI9IjMiIHN0cm9rZT0iIzc5NTU0OCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGxpbmUgeDE9IjE3IiB5MT0iMTEiIHgyPSIxNyIgeTI9IjMiIHN0cm9rZT0iIzc5NTU0OCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGxpbmUgeDE9IjMiIHkxPSIxNiIgeDI9IjIxIiB5Mj0iMTYiIHN0cm9rZT0iIzc5NTU0OCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPGNpcmNsZSBjeD0iNyIgY3k9IjIwIiByPSIxIiBzdHJva2U9IiM3OTU1NDgiIHN0cm9rZS13aWR0aD0iMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxjaXJjbGUgY3g9IjE3IiBjeT0iMjAiIHI9IjEiIHN0cm9rZT0iIzc5NTU0OCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+', 
+      icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/4e8a2c6f9b3d7e1a5f8c2b6e4d9a1c7f3b5e8a4d?placeholderIfAbsent=true', 
       category: 'Travel' 
     }
   ];
 
   const handleServiceSelect = (service: ServiceOption) => {
+    console.log('Service selected:', service);
     onServiceAdd(service);
-    onToggle(); // Close the dropdown after selection
   };
 
   const groupedServices = serviceOptions.reduce((acc, service) => {
@@ -131,6 +131,7 @@ export const AddServiceDropdown: React.FC<AddServiceDropdownProps> = ({
         <button 
           className="absolute -top-2 -right-2 bg-white text-[rgba(51,102,153,1)] w-8 h-8 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-110 z-10 border border-gray-200"
           aria-label="Add service"
+          type="button"
         >
           {isOpen ? <X size={16} className="stroke-2" /> : <Plus size={16} className="stroke-2" />}
         </button>
@@ -157,6 +158,19 @@ export const AddServiceDropdown: React.FC<AddServiceDropdownProps> = ({
                     src={service.icon} 
                     alt={`${service.title} icon`}
                     className="w-6 h-6 object-contain"
+                    onError={(e) => {
+                      // Fallback to a simple colored div if image fails to load
+                      const target = e.target as HTMLImageElement;
+                      target.style.display = 'none';
+                      const parent = target.parentElement;
+                      if (parent) {
+                        parent.style.backgroundColor = '#336699';
+                        parent.innerHTML = service.title.charAt(0);
+                        parent.style.color = 'white';
+                        parent.style.fontSize = '12px';
+                        parent.style.fontWeight = 'bold';
+                      }
+                    }}
                   />
                 </div>
                 <span className="text-sm font-medium text-gray-700 truncate flex-1">

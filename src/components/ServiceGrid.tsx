@@ -39,13 +39,18 @@ export const ServiceGrid: React.FC<ServiceGridProps> = ({
   const handleAddService = (serviceIndex: number, newService: any) => {
     console.log('Adding service:', newService, 'at index:', serviceIndex);
     
-    const updatedServices = [...services];
-    updatedServices[serviceIndex] = {
-      id: `${newService.id}-${Date.now()}`, // Ensure unique ID
-      title: newService.title,
-      icon: newService.icon,
-      onClick: () => handleServiceClick(newService.id)
-    };
+    // Create a completely new array to force re-render
+    const updatedServices = services.map((service, index) => {
+      if (index === serviceIndex) {
+        return {
+          id: `${newService.id}-${Date.now()}`, // Ensure unique ID
+          title: newService.title.toUpperCase(), // Match the existing format
+          icon: newService.icon,
+          onClick: () => handleServiceClick(newService.id)
+        };
+      }
+      return service;
+    });
     
     console.log('Updated services:', updatedServices);
     setServices(updatedServices);
@@ -65,7 +70,7 @@ export const ServiceGrid: React.FC<ServiceGridProps> = ({
     <section className="flex min-h-[671px] w-full flex-col items-stretch text-sm text-[#336699] font-normal text-center justify-center pb-2.5 max-md:max-w-full max-md:mt-9">
       {rows.map((row, rowIndex) => (
         <div 
-          key={rowIndex}
+          key={`row-${rowIndex}`}
           className={`flex w-full items-center gap-[34px] justify-center flex-wrap max-md:max-w-full ${
             rowIndex > 0 ? 'mt-[70px] max-md:mt-10' : ''
           }`}
@@ -73,8 +78,9 @@ export const ServiceGrid: React.FC<ServiceGridProps> = ({
           {row.map((service, serviceIndex) => {
             const globalIndex = rowIndex * columns + serviceIndex;
             return (
-              <div key={`service-${globalIndex}-${service.id}`} className="relative">
+              <div key={`service-container-${globalIndex}-${service.id}`} className="relative">
                 <ServiceCard
+                  key={`service-card-${service.id}`}
                   title={service.title}
                   icon={service.icon}
                   href={service.href}
@@ -82,6 +88,7 @@ export const ServiceGrid: React.FC<ServiceGridProps> = ({
                   showPlusButton={false}
                 />
                 <AddServiceDropdown
+                  key={`dropdown-${globalIndex}`}
                   onServiceAdd={(newService) => handleAddService(globalIndex, newService)}
                   isOpen={openDropdownIndex === globalIndex}
                   onToggle={() => handleDropdownToggle(globalIndex)}
