@@ -37,13 +37,17 @@ export const ServiceGrid: React.FC<ServiceGridProps> = ({
   };
 
   const handleAddService = (serviceIndex: number, newService: any) => {
+    console.log('Adding service:', newService, 'at index:', serviceIndex);
+    
     const updatedServices = [...services];
     updatedServices[serviceIndex] = {
-      id: newService.id,
+      id: `${newService.id}-${Date.now()}`, // Ensure unique ID
       title: newService.title,
       icon: newService.icon,
       onClick: () => handleServiceClick(newService.id)
     };
+    
+    console.log('Updated services:', updatedServices);
     setServices(updatedServices);
     setOpenDropdownIndex(null);
   };
@@ -69,7 +73,7 @@ export const ServiceGrid: React.FC<ServiceGridProps> = ({
           {row.map((service, serviceIndex) => {
             const globalIndex = rowIndex * columns + serviceIndex;
             return (
-              <div key={`${service.id}-${globalIndex}`} className="relative">
+              <div key={`service-${globalIndex}-${service.id}`} className="relative">
                 <ServiceCard
                   title={service.title}
                   icon={service.icon}
