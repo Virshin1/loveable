@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { ServiceCard } from './ServiceCard';
 import { AddServiceDropdown } from './AddServiceDropdown';
@@ -19,14 +18,14 @@ interface ServiceGridProps {
 export const ServiceGrid: React.FC<ServiceGridProps> = ({
   services: initialServices = [
     { id: '1', title: 'PPI WALLET GOLD', icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/d9d164360b1fbc4d980f7c15fcadd75539949710?placeholderIfAbsent=true' },
-    { id: '2', title: 'PPI WALLET GOLD', icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/d9d164360b1fbc4d980f7c15fcadd75539949710?placeholderIfAbsent=true' },
-    { id: '3', title: 'PPI WALLET GOLD', icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/d9d164360b1fbc4d980f7c15fcadd75539949710?placeholderIfAbsent=true' },
-    { id: '4', title: 'PPI WALLET GOLD', icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/d9d164360b1fbc4d980f7c15fcadd75539949710?placeholderIfAbsent=true' },
-    { id: '5', title: 'PPI WALLET GOLD', icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/d9d164360b1fbc4d980f7c15fcadd75539949710?placeholderIfAbsent=true' },
-    { id: '6', title: 'PPI WALLET GOLD', icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/d9d164360b1fbc4d980f7c15fcadd75539949710?placeholderIfAbsent=true' },
-    { id: '7', title: 'PPI WALLET GOLD', icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/d9d164360b1fbc4d980f7c15fcadd75539949710?placeholderIfAbsent=true' },
-    { id: '8', title: 'PPI WALLET GOLD', icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/d9d164360b1fbc4d980f7c15fcadd75539949710?placeholderIfAbsent=true' },
-    { id: '9', title: 'PPI WALLET GOLD', icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/d9d164360b1fbc4d980f7c15fcadd75539949710?placeholderIfAbsent=true' }
+    { id: '2', title: 'DMT', icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/38c4e30b0af84f9cbe6bf2a7f8b80b54c6e7b123?placeholderIfAbsent=true' },
+    { id: '3', title: 'AEPS', icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/2bf3c7a8d1e04f5f8e9b3c4a6f5e8d7c9b2a1e3f?placeholderIfAbsent=true' },
+    { id: '4', title: 'UPI PAY', icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/4a8f2b6e3c9d1f7a5e8b2c4f6d9a3b7e1c5f8a2d?placeholderIfAbsent=true' },
+    { id: '5', title: 'PPI WALLET', icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/6d3a8f1b9c4e7f2a5b8d1e6f3c9a2b7e4f1a8d5c?placeholderIfAbsent=true' },
+    { id: '6', title: 'RECHARGE', icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/8b5e2f9c1a7d4b6f3e8a9c2f5d1b4e7a6c3f9b2e?placeholderIfAbsent=true' },
+    { id: '7', title: 'FINTECH WALLET TO BANK TRANSFER', icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/1f7a3c9e5b8d2f6a4e9c3b7f1a5d8c2e6b4f9a3d?placeholderIfAbsent=true' },
+    { id: '8', title: 'BILL PAYMENT OFFLINE', icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/3c6f9b2e8a1d5f4b7e9c2a6f3d8b1e5c4f7a9b2d?placeholderIfAbsent=true' },
+    { id: '9', title: 'CREDIT CARD BILL', icon: 'https://cdn.builder.io/api/v1/image/assets/a2e53047b25843fd94cfdce41548669c/9d4b7f2e5c8a1f6b3e9a4c7f2d5b8e1c6f4a9b3e?placeholderIfAbsent=true' }
   ],
   columns = 3
 }) => {
